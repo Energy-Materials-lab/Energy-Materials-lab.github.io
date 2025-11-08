@@ -1,0 +1,58 @@
+- title: American University in Cairo
+  roles:
+    - title: Professor of Materials Science & Engineering
+      dates: 2019.7 - present
+    - title: Director, Energy Materials Laboratory
+      dates: 2011.9 - present
+    - title: Director, Nanotechnology Program
+      dates: 2019.9 - present
+    - title: Graduate Director, Applied Physics Program
+      dates: 2016.7 - 2019.6
+    - title: Associate Professor (with tenure)
+      dates: 2015.7 - 2019.6
+    - title: Assistant Professor
+      dates: 2011.9 - 2015.6
+  department: Department of Physics / Materials Science & Engineering
+  address: American University in Cairo, New Cairo Campus
+  location: Cairo, Egypt
+  email: nallam@aucegypt.edu
+  profiles:
+    - lang: English
+      url: https://www.aucegypt.edu/fac/nageh-allam
+
+- title: Massachusetts Institute of Technology
+  roles:
+    - title: Affiliate Scientist, Research Laboratory of Electronics
+      dates: 2011.9 - present
+    - title: Research Scholar
+      dates: 2011.1 - 2011.9
+  department: Research Laboratory of Electronics
+  location: Cambridge, MA, USA
+
+- title: California Institute of Technology
+  roles:
+    - title: Visiting Professor
+      dates: 2013.6 - 2013.8
+  department: Applied Physics and Materials Science
+  location: Pasadena, CA, USA
+
+- title: Georgia Institute of Technology
+  roles:
+    - title: Postdoctoral Fellow & Research Scientist
+      dates: 2010.1 - 2010.12
+  department: School of Materials Science and Engineering
+  location: Atlanta, GA, USA
+
+- title: Pennsylvania State University
+  roles:
+    - title: PhD Student & Research Assistant
+      dates: 2005.8 - 2009.5
+  department: Materials Science & Engineering
+  location: State College, PA, USA
+
+- title: Max-Planck-Institut für Eisenforschung GmbH
+  roles:
+    - title: Visiting Scientist
+      dates: 2005.1 - 2005.6
+  department: Surface Science Division
+  location: Düsseldorf, Germany

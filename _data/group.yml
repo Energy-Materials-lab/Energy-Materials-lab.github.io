@@ -1,0 +1,28 @@
+principle_investigator:
+  - name: "Prof. Nageh Allam"
+    image: "images/nageh_allam.jpg"   # update with actual image path
+    bio: "Prof. Nageh Allam is a Professor of Physics at the American University in Cairo (AUC), Director of the Nanotechnology Graduate Program, and head of the Energy Materials Laboratory (EML). His research focuses on nanostructured materials for energy conversion and storage."
+    bio_link: "/about/"
+
+graduate_students:
+  - name: "Mohamed Mahrous"
+    period: "Sep. 2024 – Present"
+    description: "PhD researcher in Electrical and Computer Engineering at the University of Toronto, specializing in computational modeling battery electrolyte interface. Also contributes to EML’s collaborative infrastructure and documentation."
+
+  # Add more graduate students here as needed
+  # - name: "Student Name"
+  #   period: "Start – Present"
+  #   description: "Research focus and degree program."
+
+undergraduate_students:
+  - name: "Student Name"
+    description: "Undergraduate researcher working on nanomaterials for energy applications. Project details to be updated."
+
+  # Add more undergraduates as needed
+
+alumni:
+  - name: "Alumni Name"
+    period: "Years active"
+    description: "Graduated with MSc/PhD. Current position or career path."
+
+  # Add more alumni entries as needed

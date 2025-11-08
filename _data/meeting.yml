@@ -1,0 +1,71 @@
+# EML Meetings, Workshops, Proceedings, Talks
+
+- title: "Nanostructured Materials for Solar Fuel Generation"
+  year: 2025
+  author:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: main
+  source: "International Conference on Renewable Energy Materials"
+  city: "Cairo, Egypt"
+  fulltext:
+
+- title: "Advances in Photoelectrochemical Water Splitting"
+  year: 2024
+  author:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: main
+  source: "MRS Fall Meeting"
+  city: "Boston, MA, USA"
+  fulltext:
+
+- title: "Nanostructured Electrodes for High-Performance Supercapacitors"
+  year: 2023
+  author:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: main
+  source: "International Workshop on Energy Storage Materials"
+  city: "Berlin, Germany"
+  fulltext:
+
+- title: "Computational Modeling of Ion Transport at Battery Interfaces"
+  year: 2023
+  author:
+    - given: Mohamed
+      given_initial: M.
+      family: Mahrous
+      role: coauthor
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: main
+  source: "Electrochemical Society Meeting"
+  city: "Montreal, Canada"
+  fulltext:
+
+- title: "Plasmonic Nanostructures for Enhanced Photocatalysis"
+  year: 2022
+  author:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: main
+  source: "International Conference on Nanotechnology"
+  city: "Tokyo, Japan"
+  fulltext:
+
+- title: "Nanotechnology for Sustainable Energy Applications"
+  year: 2021
+  author:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: main
+  source: "AUC Nanotechnology Graduate Program Workshop"
+  city: "Cairo, Egypt"
+  fulltext:

@@ -1,0 +1,61 @@
+# EML Theses and Dissertations
+
+- id: Mahrous2027
+  title: "Computational Modeling of Ion Adsorption and Transport at Battery Electrolyte Interfaces"
+  page: 210
+  year: 2027
+  advisor:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: Supervisor
+  author:
+    - given: Mohamed
+      given_initial: M.
+      family: Mahrous
+      role: main
+  publisher: University of Toronto
+  city: "Toronto, Canada"
+  source: Doctoral Dissertation
+  fulltext: "phd2027.pdf"
+  language: english
+
+- id: AUC2023a
+  title: "Nanostructured Materials for Solar Fuel Generation"
+  page: 180
+  year: 2023
+  advisor:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: Supervisor
+  author:
+    - given: Graduate
+      given_initial: G.
+      family: Student
+      role: main
+  publisher: American University in Cairo
+  city: "Cairo, Egypt"
+  source: Master's Thesis
+  fulltext: "msc2023.pdf"
+  language: english
+
+- id: AUC2021b
+  title: "Plasmonic Nanostructures for Enhanced Photocatalysis"
+  page: 165
+  year: 2021
+  advisor:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: Supervisor
+  author:
+    - given: Graduate
+      given_initial: G.
+      family: Student
+      role: main
+  publisher: American University in Cairo
+  city: "Cairo, Egypt"
+  source: Master's Thesis
+  fulltext: "msc2021.pdf"
+  language: english

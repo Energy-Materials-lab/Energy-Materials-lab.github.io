@@ -1,0 +1,25 @@
+# Menu navigation links
+
+- title:    Home
+  url:      /
+
+- title:    Group
+  url:      /group/
+
+- title:    Research
+  url:      /research/
+
+- title:    Teaching
+  url:      /teaching/
+
+- title:    Publications
+  url:      /publications/
+
+- title:    Software list used
+  url:      /software/
+
+- title:    Blog
+  url:      /blog/
+
+- title:    About
+  url:      /about/

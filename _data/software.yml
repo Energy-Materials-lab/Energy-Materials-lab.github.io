@@ -1,0 +1,104 @@
+# General Software Used in EML Research
+
+- name: MATLAB
+  category: Scientific Computing
+  description: High-level language and environment for numerical computation, visualization, and programming.
+  features:
+    - Matrix and linear algebra operations
+    - Signal and image processing toolboxes
+    - Optimization and machine learning support
+    - Widely used in engineering and physics
+  highlight: true
+  links:
+    - text: Official Website
+      url: https://www.mathworks.com/products/matlab.html
+
+- name: COMSOL Multiphysics
+  category: Simulation
+  description: Finite element analysis software for multiphysics simulations.
+  features:
+    - Electrochemistry and battery modeling
+    - Heat transfer and fluid dynamics
+    - Coupled multiphysics simulations
+  links:
+    - text: Official Website
+      url: https://www.comsol.com/
+
+- name: Python
+  category: Programming & Data Analysis
+  description: General-purpose programming language with extensive scientific libraries.
+  features:
+    - NumPy, SciPy, and Pandas for numerical/data analysis
+    - Matplotlib and Seaborn for visualization
+    - TensorFlow and PyTorch for machine learning
+  highlight: true
+  links:
+    - text: Python.org
+      url: https://www.python.org/
+
+- name: Julia
+  category: Scientific Computing
+  description: High-performance language for numerical and scientific computing.
+  features:
+    - Fast execution with JIT compilation
+    - Rich ecosystem for differential equations and optimization
+    - Easy integration with Python and C
+  links:
+    - text: JuliaLang.org
+      url: https://julialang.org/
+
+- name: OriginLab
+  category: Data Analysis & Visualization
+  description: Software for scientific graphing and data analysis.
+  features:
+    - Curve fitting and statistical analysis
+    - Publication-quality plots
+    - Easy import/export of experimental data
+  links:
+    - text: Official Website
+      url: https://www.originlab.com/
+
+- name: LaTeX
+  category: Documentation & Writing
+  description: Typesetting system for producing scientific and technical documents.
+  features:
+    - Professional formatting for theses and papers
+    - Math and equation support
+    - Bibliography management with BibTeX
+  highlight: true
+  links:
+    - text: LaTeX Project
+      url: https://www.latex-project.org/
+
+- name: Git & GitHub
+  category: Collaboration & Version Control
+  description: Distributed version control system and hosting platform for collaborative research.
+  features:
+    - Track changes in code and documents
+    - Branching and merging workflows
+    - Open-source collaboration
+  links:
+    - text: GitHub
+      url: https://github.com/
+
+- name: VASP
+  category: Computational Materials
+  description: Vienna Ab initio Simulation Package for atomic scale materials modeling.
+  features:
+    - Density functional theory (DFT) calculations
+    - Molecular dynamics simulations
+    - Widely used in computational materials science
+  links:
+    - text: Official Website
+      url: https://www.vasp.at/
+
+- name: Gaussian
+  category: Computational Chemistry
+  description: Software for electronic structure modeling.
+  features:
+    - Quantum chemistry calculations
+    - Molecular orbital analysis
+    - Spectroscopy simulations
+  links:
+    - text: Official Website
+      url: https://gaussian.com/

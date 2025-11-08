@@ -1,0 +1,104 @@
+# EML Publications - Journal Articles
+
+- title: "Nanostructured Photoanodes for Efficient Solar Fuel Generation"
+  volume: 12
+  issue: 4
+  page: 1456-1465
+  year: 2025
+  author:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: "main corr"
+    - given: Mohamed
+      given_initial: M.
+      family: Mahrous
+      role: "coauthor"
+  journal:
+    fullname: Journal of Materials Chemistry A
+    abbreviation: J. Mater. Chem. A
+  URL: https://doi.org/10.1039/example2025
+  type: article
+  DOI: 10.1039/example2025
+  fulltext: jmca202501.pdf
+  language: english
+
+- title: "Plasmonic Nanostructures for Enhanced Photocatalytic CO₂ Reduction"
+  volume: 10
+  issue: 15
+  page: 5678-5687
+  year: 2024
+  author:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: "main corr"
+  journal:
+    fullname: ACS Applied Nano Materials
+    abbreviation: ACS Appl. Nano Mater.
+  URL: https://doi.org/10.1021/example2024
+  type: article
+  DOI: 10.1021/example2024
+  fulltext: acsanm202401.pdf
+  language: english
+
+- title: "Computational Modeling of Ion Transport at Battery Electrolyte Interfaces"
+  volume: 8
+  issue: 2
+  page: 223-234
+  year: 2023
+  author:
+    - given: Mohamed
+      given_initial: M.
+      family: Mahrous
+      role: "main"
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: "corr"
+  journal:
+    fullname: Electrochimica Acta
+    abbreviation: Electrochim. Acta
+  URL: https://doi.org/10.1016/example2023
+  type: article
+  DOI: 10.1016/example2023
+  fulltext: ea202301.pdf
+  language: english
+
+- title: "Nanostructured Electrodes for High-Performance Supercapacitors"
+  volume: 15
+  issue: 7
+  page: 789-798
+  year: 2022
+  author:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: "main corr"
+  journal:
+    fullname: Advanced Energy Materials
+    abbreviation: Adv. Energy Mater.
+  URL: https://doi.org/10.1002/example2022
+  type: article
+  DOI: 10.1002/example2022
+  fulltext: aem202201.pdf
+  language: english
+
+- title: "Nanotechnology for Sustainable Energy Applications"
+  volume: 5
+  issue: 1
+  page: 12-25
+  year: 2021
+  author:
+    - given: Nageh
+      given_initial: N.
+      family: Allam
+      role: "main"
+  journal:
+    fullname: Renewable & Sustainable Energy Reviews
+    abbreviation: Renew. Sustain. Energy Rev.
+  URL: https://doi.org/10.1016/example2021
+  type: review
+  DOI: 10.1016/example2021
+  fulltext: rser202101.pdf
+  language: english
