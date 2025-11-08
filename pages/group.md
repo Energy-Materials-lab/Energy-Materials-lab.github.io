@@ -8,7 +8,10 @@ modified: 2025-11-08
 breadcrumbs: true
 ---
 
-![Energy Materials Laboratory Group](emlgroup.jpg){: .center-image }
+<img src="/images/emlgroup.jpg" alt="Energy Materials Laboratory Group" style="display:block; margin:0 auto; max-width:80%;">
+
+# People at EML
+
 
 # People at EML
 
