@@ -8,6 +8,8 @@ modified: 2025-11-08
 breadcrumbs: true
 ---
 
+![Energy Materials Laboratory Group](emlgroup.jpg){: .center-image }
+
 # People at EML
 
 ## Principal Investigator
