@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  {% include head.html %}
+</head>
+
+<body id="post-index">
+
+  {% include nav_cleanblog.html %}
+
+  {% if page.breadcrumbs == true %}
+    {% include masthead-breadcrumbs.html %}
+  {% endif %}
+
+  <div id="main" role="main">
+    <article class="hentry">
+      <header class="post-index-header">
+        <span itemprop="name">
+          {% if page.subheadline %}
+            <p class="subheadline">{{ page.subheadline }}</p>
+          {% endif %}
+          <h1>{{ page.title }}</h1>
+        </span>
+
+        {% if page.teaser %}
+          <p class="teaser" itemprop="description">
+            {{ page.teaser }}
+          </p>
+        {% endif %}
+      </header>
+
+      <div class="entry-content">
+        {{ content }}
+      </div><!-- /.entry-content -->
+    </article>
+  </div><!-- /#main -->
+
+  <div class="footer-wrapper">
+    {% include footer.html %}
+  </div><!-- /.footer-wrapper -->
+
+  {% include scripts.html %}
+
+</body>
+</html>

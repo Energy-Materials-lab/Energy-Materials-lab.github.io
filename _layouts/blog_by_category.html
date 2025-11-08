@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  {% include head.html %}
+</head>
+
+<body id="blog-category">
+
+  {% include nav_cleanblog.html %}
+
+  <div id="main" role="main">
+    <section class="category-header">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Posts in Category: {{ page.category | capitalize }}
+        </h1>
+        {% if page.description %}
+          <p class="hero-subtitle">{{ page.description }}</p>
+        {% endif %}
+      </div>
+    </section>
+
+    <section class="posts-list">
+      <div class="posts-grid">
+        {% assign category_posts = site.categories[page.category] | sort: 'date' | reverse %}
+        {% if category_posts and category_posts.size > 0 %}
+          {% for post in category_posts %}
+          <article class="post-card">
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+            {% if post.excerpt %}
+              <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
+            {% endif %}
+            <a href="{{ post.url }}" class="read-more">Read more</a>
+          </article>
+          {% endfor %}
+        {% else %}
+          <p>No posts found in this category.</p>
+        {% endif %}
+      </div>
+    </section>
+  </div><!-- /#main -->
+
+  <div class="footer-wrapper">
+    {% include footer.html %}
+  </div><!-- /.footer-wrapper -->
+
+  {% include scripts.html %}
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  {% include head.html %}
+</head>
+
+<body id="blog-index">
+
+  {% include nav_cleanblog.html %}
+
+  {% include header-blog.html %}
+
+  <div id="main" role="main">
+    <section class="blog-header">
+      <h1 class="section-title">Lab Blog & Updates</h1>
+      <p class="section-subtitle">News, highlights, and insights from the Energy Materials Laboratory (EML).</p>
+    </section>
+
+    <div class="blog-list">
+      {{ content }}
+    </div><!-- /.blog-list -->
+  </div><!-- /#main -->
+
+  <div class="footer-wrapper">
+    {% include footer.html %}
+  </div><!-- /.footer-wrapper -->
+
+  {% include scripts.html %}
+
+</body>
+</html>

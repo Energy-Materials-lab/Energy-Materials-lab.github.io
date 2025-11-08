@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  {% include head.html %}
+</head>
+
+<body id="home">
+
+  {% include nav_cleanblog.html %}
+
+  <div id="main" role="main">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-title">Welcome to the Energy Materials Laboratory (EML) @ AUC</h1>
+        <p class="hero-subtitle">Advancing Nanomaterials for Energy Conversion, Storage, and Sustainability</p>
+        <div class="hero-cta">
+          <a href="/research" class="button primary">Our Research</a>
+          <a href="/publications" class="button secondary">Selected Publications</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Content Section -->
+    <section class="featured-section">
+      <div class="grid-container">
+        <div class="featured-card">
+          <h2>Research Themes</h2>
+          <p>Explore our work in solar fuels, supercapacitors, nanostructured materials, and computational modeling.</p>
+          <a href="/research" class="button">Learn More</a>
+        </div>
+
+        <div class="featured-card">
+          <h2>Join Our Group</h2>
+          <p>We welcome motivated students and collaborators to contribute to our interdisciplinary projects.</p>
+          <a href="/group" class="button">Opportunities</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section">
+      <h2 class="section-title">Latest News</h2>
+      <div class="news-grid">
+        {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+        {% for item in sorted_news limit:3 %}
+        <article class="news-card">
+          <div class="news-content">
+            <h3>{{ item.title }}</h3>
+            <p class="news-meta">{{ item.date | date: "%Y.%m.%d" }} | {{ item.category | capitalize }}</p>
+            <p>{{ item.description }}</p>
+            <a href="{{ item.url }}" class="read-more">Read more</a>
+          </div>
+        </article>
+        {% endfor %}
+        
+        <!-- More News Card -->
+        <article class="news-card more-news">
+          <div class="news-content">
+            <a href="/news" class="read-more">View All News</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="row">
+      {{ content }}
+    </div>
+  </div><!-- /#main -->
+
+  <div class="footer-wrapper">
+    {% include footer.html %}
+  </div><!-- /.footer-wrapper -->
+
+  {% include scripts.html %}
+
+</body>
+</html>

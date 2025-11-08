@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  {% include head.html %}
+</head>
+
+<body id="page" {% if page.image.feature %}class="feature"{% endif %}>
+
+  {% include nav_cleanblog.html %}
+
+  {% if page.breadcrumbs == true %}
+    {% include masthead-breadcrumbs.html %}
+  {% endif %}
+
+  <div id="main" role="main">
+    <article class="hentry">
+      <div class="entry-content">
+        <header class="page-header">
+          <span itemprop="name">
+            {% if page.subheadline %}
+              <p class="subheadline">{{ page.subheadline }}</p>
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+          </span>
+          {% if page.teaser %}
+            <p class="teaser" itemprop="description">{{ page.teaser }}</p>
+          {% endif %}
+        </header>
+
+        {{ content }}
+
+        <footer class="entry-meta">
+          <div class="center">
+            {% if page.modified %}
+              <span>Updated on 
+                <span class="entry-date date updated">
+                  <time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time>
+                </span>
+              </span>
+              <span class="author vcard"><span class="fn">{{ site.owner.name }}</span></span>
+            {% endif %}
+          </div>
+          {% if page.share != false %}
+            {% include social-share.html %}
+          {% endif %}
+        </footer>
+      </div><!-- /.entry-content -->
+    </article>
+  </div><!-- /#main -->
+
+  <div class="footer-wrapper">
+    {% include footer.html %}
+  </div><!-- /.footer-wrapper -->
+
+  {% include scripts.html %}
+
+</body>
+</html>
