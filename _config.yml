@@ -1,6 +1,7 @@
 title:            Energy Materials Laboratory (EML)
 description:      "Nanostructured materials for energy conversion and storage – American University in Cairo"
-url:              //energy-materials-lab.github.io/
+url:              "https://energy-materials-lab.github.io"
+baseurl:              ""
 urlimg:           '/images/'
 header-img:       images/homepage.jpg
 
