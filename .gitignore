@@ -1,0 +1,16 @@
+_site
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+Gemfile.lock
+.sass-cache
+backup
+_backup
+_drafts
+.vscode
+
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md

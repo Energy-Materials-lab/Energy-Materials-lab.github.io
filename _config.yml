@@ -1,0 +1,35 @@
+title:            Energy Materials Laboratory (EML)
+description:      "Nanostructured materials for energy conversion and storage – American University in Cairo"
+url:              //eml-auc.github.io
+urlimg:           '/images/'
+header-img:       images/homepage.jpg
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+author:           nageh
+
+owner:
+  name:           Prof. Nageh Allam
+  avatar:         allam.jpg
+  bio:            "Professor of Physics at the American University in Cairo. Founder of the Energy Materials Laboratory (EML), focusing on nanostructured materials for solar energy conversion, electrochemical storage, and sustainable technologies."
+  email:          nageh.allam@aucegypt.edu
+  twitter:        
+  facebook:       
+  github:         
+  linkedin:       
+  researchgate:   
+  google_scholar: 
+
+timezone: Africa/Cairo
+future: true
+highlighter: rouge
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /:year/:month/:title
+paginate: 5
+paginate_path: "blog/page:num/"
