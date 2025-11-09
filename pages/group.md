@@ -18,7 +18,7 @@ breadcrumbs: true
 Professor of Physics, American University in Cairo  
 Founder of the Energy Materials Laboratory (EML). His research focuses on nanostructured materials for solar energy conversion, electrochemical storage, and sustainable technologies.  
 Email: nageh.allam@aucegypt.edu  
-[Google Scholar](https://scholar.google.com/) | [ResearchGate](https://www.researchgate.net/)  
+[Google Scholar](https://scholar.google.com/citations?user=18v00ZIAAAAJ&hl) | [ResearchGate](https://www.researchgate.net/profile/Nageh-Allam)/)    
 
 ---
 
