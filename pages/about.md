@@ -12,7 +12,7 @@ breadcrumbs: true
 
 Prof. **Nageh Allam** is a Professor of Physics at the American University in Cairo (AUC) and the founder of the **Energy Materials Laboratory (EML)**. His research focuses on the design, synthesis, and characterization of nanostructured materials for solar energy conversion, electrochemical storage, and sustainable technologies.  
 
-He received his PhD in Materials Science and Engineering from the University of Florida, USA, and has held visiting positions at leading international institutions. Prof. Allam has published extensively in peer‑reviewed journals and is recognized internationally for his contributions to nanotechnology and energy materials.
+He received his PhD in Materials Science and Engineering from Pennsylvania State University, USA, and has held visiting positions at leading international institutions. Prof. Allam has published extensively in peer‑reviewed journals and is recognized internationally for his contributions to nanotechnology and energy materials.
 
 His [current research interests]({{site.url}}/research) include:
 - Nanostructured semiconductors for solar energy conversion  
