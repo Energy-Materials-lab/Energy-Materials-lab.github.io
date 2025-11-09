@@ -8,7 +8,7 @@ comments: false
 modified: 2025-11-08
 breadcrumbs: true
 ---
-<img src="/images/NAllam.jpg" alt="Professor Nageh Allam" style="display:block; margin:0 auto; max-width:80%;">
+<img src="/images/NAllam.jpg" alt="Professor Nageh Allam" style="display:block; margin:0 auto; max-width:60%;">
 
 Prof. **Nageh Allam** is a Professor of Physics at the American University in Cairo (AUC) and the founder of the **Energy Materials Laboratory (EML)**. His research focuses on the design, synthesis, and characterization of nanostructured materials for solar energy conversion, electrochemical storage, and sustainable technologies.  
 
